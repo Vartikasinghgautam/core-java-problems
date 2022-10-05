@@ -1,0 +1,14 @@
+package io.github.vartikasingh.corejava.project.atm;
+
+import java.io.IOException;
+
+public class ATM extends OptionMenu {
+	public static void main(String[] args) throws IOException {
+		OptionMenu  optionMenu = new OptionMenu();   // intialises the optionmenu 
+		
+		optionMenu.getLogin();  // calls the get login method
+		
+	}
+
+
+}
